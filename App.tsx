@@ -175,7 +175,7 @@ const App: React.FC = () => {
           <div className="absolute -top-6 left-1/2 -translate-x-1/2 z-30 pointer-events-none">
             <div className={`transition-transform duration-100 ${isSpinning ? 'animate-bounce' : ''}`}>
               <div className="w-10 h-12 bg-gradient-to-b from-yellow-300 to-yellow-500 rounded-t-full shadow-[0_0_20px_rgba(234,179,8,0.5)] border-2 border-white/30 relative">
-                <div className="absolute top-full left-[-2px] w-0 h-0 border-l-[21px] border-l-transparent border-r-[21px] border-r-transparent border-t-[24px] border-t-yellow-500"></div>
+                <div className="absolute top-full left-[-3px] w-0 h-0 border-l-[21px] border-l-transparent border-r-[21px] border-r-transparent border-t-[24px] border-t-yellow-500"></div>
               </div>
             </div>
           </div>
